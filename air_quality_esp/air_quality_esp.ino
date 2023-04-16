@@ -90,7 +90,7 @@ void loop()
     }
 
   latitude = "22.714500";
-  longitude = "75.915500";
+  longitude = "75.915516";
 
   cdata = cdata + CO + "," + Alcohol + "," + CO2 + "," + Toluen + "," + NH4 + "," + Aceton;
   GPS=GPS+latitude + "," + longitude;
@@ -108,7 +108,7 @@ a++;
 delay(1000);
 digitalWrite(green,LOW);
 //}
-if(a==60)
+if(a==5)
 {
   digitalWrite(yellow,HIGH);
   email();
